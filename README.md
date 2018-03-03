@@ -1,2 +1,2 @@
 # OpenEVSE-power-time-of-use-control
-make the OpenESVE not charge during peak power times
+Make the OpenESVE not charge during peak power times with a simple cron job
