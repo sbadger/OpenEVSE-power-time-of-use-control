@@ -8,11 +8,11 @@
 # %24FE enables controler
 
 # disable times
-0 13 * 5-10 1-5 curl -s http://192.168.13.59/r?rapi=%24FD
-0 5,17 * 1-4,10-12 1-5 curl -s http://192.168.13.59/r?rapi=%24FD
+0 13 * 5-10 1-5 curl -s http://192.168.13.59/r?rapi=\%24FD
+0 5,17 * 1-4,10-12 1-5 curl -s http://192.168.13.59/r?rapi=\%24FD
 
 # enable times
 # summer time start delayed 15 minutes for air conditioning startup
-15 20 * 5-10 1-5 curl -s http://192.168.13.59/r?rapi=%24FE
-0 9,21 * 1-4,10-12 1-5 curl -s http://192.168.13.59/r?rapi=%24FE
+15 20 * 5-10 1-5 curl -s http://192.168.13.59/r?rapi=\%24FE
+0 9,21 * 1-4,10-12 1-5 curl -s http://192.168.13.59/r?rapi=\%24FE
 
